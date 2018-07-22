@@ -1,0 +1,21 @@
+{
+  "name": "creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "creator": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marete Kent <maretekent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "shelljs": "^0.8.2"
+  }
+}
