@@ -8,7 +8,7 @@ const shell = require("shelljs");
 const init = () => {
   console.log(
     chalk.green(
-      figlet.textSync("Node f*cking JS", {
+      figlet.textSync("File Creator Project", {
         font: "Ghost",
         horizontalLayout: "default",
         verticalLayout: "default"
@@ -48,7 +48,7 @@ const success = filepath => {
     chalk.white.bgGreen.bold(`Done! File created at ${filepath}`)
   );
 };
-
+	
 const run = async () => {
   // show script introduction
   init();
